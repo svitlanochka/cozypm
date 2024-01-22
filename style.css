@@ -1,0 +1,187 @@
+/* general styles */
+
+@font-face {
+  //font-family: loved;
+  font-family: FFF_Tusj;
+  //src: url(fonts/lovedbytheking.ttf);
+  src: url(fonts/FFF_Tusj.ttf);
+}
+
+@font-face {
+  font-family: cour;
+  src: url(fonts/cour.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: Neucha, sans-serif;
+  user-select: none;
+  color: #222;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* home page styles */
+
+header {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header .content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+}
+
+.img-container {display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 35vh;
+}
+
+header .logo {
+  //font-family: loved;
+  //font-size: 12em;
+  //color: #ffcddf;
+  //line-height: 85%;
+  //text-shadow: 1px 2px #222;
+  //margin-top: 15vh;
+  //width: 150px;
+//background-size: 80vh;	 width="1194px" height="494px"
+}
+
+header .description {
+  
+  //font-family: FFF_Tusj;
+  font-size: 3.5em;
+  font-weight: 400;
+color: #222;
+}
+
+
+header .btn {
+  /*background-color: #fff;
+  padding: 14px 20px;
+  margin: 18px 0;
+  border: 2px solid #008000;
+  cursor: pointer;
+  
+  
+  //color: #77dd77;
+  
+
+background-color: #f8f8e8;
+  color: #008000;
+*/
+margin: 2rem 0;
+margin-bottom: 8vh;
+  align-self: center;
+  background-color: transparent;
+  //border: solid 2px transparent;//#9acd32;
+  color: #222;#9acd32;#41403e;
+  cursor: pointer;
+  display: inline-block;
+  //font-family: Neucha, sans-serif;
+font-family: cour;
+  font-size: 1.25em;
+  //line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-left-radius: 15px 225px;
+  border-bottom-right-radius: 255px 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: 400;
+
+  
+}
+
+header .btn:hover {
+  //background-color: #9acd32;
+  //color: #fff;
+  //border: 2px dashed #9acd32;
+
+  //text-decoration: underline #555;
+  //text-decoration-thickness: .01rem;
+
+text-decoration: underline #222; //#ffffb1;
+  text-decoration-thickness: .01rem;
+}
+
+header .btn:focus {
+}
+
+footer {
+  min-height: 15vh;
+  background-color: #222;
+  color: #d9d9d9;
+}
+
+footer nav {
+  margin-bottom: 30px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer li {
+  display: inline;
+  margin: 8px 20px;
+  font-size: .9em;
+}
+
+footer li a {
+  text-decoration: underline #9acd32; //#ffffb1;
+  text-decoration-thickness: .01rem;
+  
+}
+
+
+footer li a:hover {
+  text-decoration: underline overline #9acd32;
+}
+
+footer .copy {
+  text-align: center;
+  font-size: .8em;
+}
+
+footer .copy a {
+  text-decoration: none;
+}
+
+footer .copy a:hover {
+  text-decoration: underline grey;
+}
+
+
